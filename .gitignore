@@ -1,0 +1,16 @@
+# built binaries (root-anchored: bare "gateway"/"agent" would also match the
+# cmd/ and internal/ package directories of the same name)
+/bin/
+/dist/
+/gateway
+/agent
+
+# test and coverage output
+*.out
+*.test
+coverage.*
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
